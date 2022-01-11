@@ -1,0 +1,52 @@
+@import "../../assets/css/variables.scss";
+@import "../../assets/css/mixins.scss";
+
+.wrapper {
+  background: #edfafd;
+}
+
+.sectionImg {
+  position: absolute;
+  top: -14.2rem;
+  z-index: 1;
+}
+
+.quoteImg {
+  z-index: 0;
+  top: -5.5rem;
+  position: absolute;
+  right: 3rem;
+  width: 50%;
+}
+
+.quoteIcon {
+  position: relative;
+  left: 16px;
+  top: -50px;
+  svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  @include mq($medium) {
+    position: relative;
+    left: 12px;
+    top: -66px;
+    svg {
+      width: 130px;
+      height: 130px;
+    }
+  }
+}
+
+.quotes {
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+  padding: 3.2rem;
+  margin: 2.5rem 0;
+
+  .tag {
+    color: #00acee;
+  }
+}

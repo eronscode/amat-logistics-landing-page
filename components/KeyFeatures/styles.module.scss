@@ -1,0 +1,32 @@
+.feature {
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(108, 124, 117, 0.07);
+  border-radius: 8px;
+  padding: 1.6rem;
+  margin: 2.5rem 0;
+
+  h5 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    margin-bottom: 0.8rem;
+    margin-top: 2.4rem;
+    color: #030d25;
+  }
+
+  p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #18191f;
+    margin-bottom: 2.4rem;
+  }
+
+  button {
+    color: #00a85a;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+  }
+}
