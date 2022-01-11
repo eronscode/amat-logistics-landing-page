@@ -19,7 +19,7 @@ const NavLinks = [
     href: "features",
   },
   {
-    title: "Sneak Peak",
+    title: "Sneak Peek",
     href: "sneakpeek",
   },
 ];
@@ -46,7 +46,7 @@ function Header(): ReactElement {
               <div className="w-48 mr-12">
                 <Image
                   className=""
-                  src={logo.src}
+                  src={"/images/amat-logo.png"}
                   alt="logo"
                   height="100px"
                   width="200px"

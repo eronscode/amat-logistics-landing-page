@@ -19,7 +19,7 @@ function SubscribeCTA() {
             <div className="tablet:w-6/12 ">
               <div className="mt-16 tablet:mt-0">
                 <h5 className="text-white tablet:text-xl text-base mb-8 font-bold">
-                  Test PYO2023,
+                  Test AmatNow,
                   <br /> Win Amazing Prices
                 </h5>
                 <div className={`${styles.subscribeSection} flex flex-wrap`}>

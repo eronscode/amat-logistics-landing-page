@@ -40,12 +40,14 @@ function HomeHero() {
             <div className="tablet:w-6/12 tablet:px-6">
               <div className={styles.textCaption}>
                 <h1 className="font-ibm-plex">
-                  Lend Your Voice, Rebuild Your Country.
+                  Order in <span style={{ color: "#E93821" }}>3-clicks</span>.
+                  Delivered At Your{" "}
+                  <span style={{ color: "#E93821" }}>Doorstep</span>.
                 </h1>
                 <div className={styles.heroText}>
                   <p>Become a Beta Tester</p>
                   <p>
-                    Join us in testing PYO2023 and win amazing prices on bugs
+                    Join us in testing AmatNow and win amazing prices on bugs
                     found!
                   </p>
                 </div>

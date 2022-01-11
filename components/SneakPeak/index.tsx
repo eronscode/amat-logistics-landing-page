@@ -81,7 +81,7 @@ function SneakPeak() {
 
   return (
     <section id="sneakpeek" className="mt-32 tablet:mt-56 mb-30">
-      <h1 className="text-center text-base  mb-4 tablet:text-2xl">
+      <h1 className="text-center text-base  mb-12 tablet:text-2xl">
         <span className="font-bold">Sneak Peek </span>😋
       </h1>
       <section className={`${styles.wrapper}  relative`}>

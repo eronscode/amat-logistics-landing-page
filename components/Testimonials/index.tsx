@@ -26,15 +26,16 @@ function TestimonialSection() {
                 </div>
                 <div>
                   <h6 className="tablet:text-sm text-xs">
-                    Finally, an idea! Hope it works well 🤞{" "}
-                    <span className={styles.tag}>#pyo2023</span>
+                    To just be able to order for African meal and items from my
+                    house is the best feeling
+                    <span className={styles.tag}>#amatnow #app</span>
                   </h6>
                   <p className="flex mt-10 items-center">
                     <span className="mr-4">
                       <RoundTwitterIcon />
                     </span>
                     <span className="text-xxs" style={{ color: "#969BAB" }}>
-                      @Iam_Manuelsnr
+                      @gloryokings
                     </span>
                   </p>
                 </div>
@@ -49,15 +50,16 @@ function TestimonialSection() {
                 </div>
                 <div>
                   <h6 className="tablet:text-sm text-xs">
-                    Interesting! Lets see how this pans out.{" "}
-                    <span className={styles.tag}>#pyo2023 #App</span>
+                    Ordering African food from the comfort of my couch, wow
+                    never saw this coming.
+                    <span className={styles.tag}>#Amatnow #App #Thelunch</span>
                   </h6>
                   <p className="flex mt-10 items-center">
                     <span className="mr-4">
                       <RoundTwitterIcon />
                     </span>
                     <span className="text-xxs" style={{ color: "#969BAB" }}>
-                      @_ishamael
+                      @tallnutella
                     </span>
                   </p>
                 </div>
@@ -72,15 +74,21 @@ function TestimonialSection() {
                 </div>
                 <div>
                   <h6 className="tablet:text-sm text-xs">
-                    Looking at the mission and team behind this, can’t wait for
-                    this. <span className={styles.tag}>#pyo2023</span>
+                    Finally I can say goodbye to the stress of shopping for
+                    African food items. With AmatNow my phone is my new market
+                    💯💯
+                    <span className={styles.tag}>
+                      {" "}
+                      #AmatNow #Istanbul #Africanmarket #Africanapp
+                      #onlineshopping #homedelivery
+                    </span>
                   </h6>
                   <p className="flex mt-10 items-center">
                     <span className="mr-4">
                       <RoundTwitterIcon />
                     </span>
                     <span className="text-xxs" style={{ color: "#969BAB" }}>
-                      @TobiAnifowose
+                      @joshdemy
                     </span>
                   </p>
                 </div>

@@ -8,7 +8,7 @@ function Footer() {
   const { isLoading, onValueChange, value, handleSubmit } =
     useFormSubscription();
   return (
-    <section className="bg-dark pt-7 pb-10 mt-32">
+    <section className="bg-dark pt-7 pb-10 tablet:mt-0 mt-32">
       <div style={{ color: "#D9DBE1" }} className="container">
         <div className="md:flex items-end">
           <div className="md:w-1/3 md:py-8 py-12 px-1 ">
@@ -80,7 +80,7 @@ function Footer() {
 
           <div className="md:w-2/6   md:py-8 py-12 px-11">
             <p className="text-center text-xxs">
-              © {new Date().getFullYear()} PYO2023. All rights reserved
+              © {new Date().getFullYear()} AmatNow. All rights reserved
             </p>
           </div>
         </div>

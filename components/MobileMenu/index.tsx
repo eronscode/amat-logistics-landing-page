@@ -36,7 +36,7 @@ function MobileMenu(props: Props) {
                 <div className="w-64 mr-12">
                   <Image
                     className=""
-                    src={logo.src}
+                    src={"/images/amat-logo.png"}
                     alt="logo"
                     height="100px"
                     width="200px"

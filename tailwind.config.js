@@ -29,14 +29,14 @@ module.exports = {
       inter: ["Inter", "serif"],
     },
     textColor: {
-      primary: "#00A85A",
+      primary: "#E93821",
       gray: "#18191F",
       dark: "#0B0D17",
       white: "#ffffff",
     },
     extend: {
       colors: {
-        primary: "#00A85A",
+        primary: "#E93821",
         gray: "#18191F",
         dark: "#0B0D17",
         white: "#ffffff",

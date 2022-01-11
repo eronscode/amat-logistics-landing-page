@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import { ArrowRight, ArticleIcon, ForumIcon, PlayIcon } from "components/Svg";
+import { ArrowRight, FoodIcon, NoteIcon, RiderIcon } from "components/Svg";
 import { Link } from "react-scroll";
 
 export default function KeyFeatures() {
@@ -8,16 +8,16 @@ export default function KeyFeatures() {
     <section id="features" className="mt-40">
       <div className="container">
         <h2 className="text-center tablet:text-2xl text-base font-extrabold">
-          Discover Key Features
+          Key Features
         </h2>
         <div className="tablet:flex mt-12">
           <div className="tablet:w-4/12 w-full tablet:px-8">
             <div className={styles.feature}>
-              <ArticleIcon />
-              <h5>Share News</h5>
+              <FoodIcon />
+              <h5>Place Orders</h5>
               <p>
-                Stay updated with localized reports of recent happening around
-                you. Stay informed!
+                Order local food items, groceries, beauty and other essentials
+                directly from the App.
               </p>
               <Link
                 to={"subscribe"}
@@ -37,11 +37,11 @@ export default function KeyFeatures() {
           </div>
           <div className="tablet:w-4/12 w-full tablet:px-8">
             <div className={styles.feature}>
-              <PlayIcon />
-              <h5>Go Live</h5>
+              <RiderIcon />
+              <h5>Send Packages</h5>
               <p>
-                In an endangering situation? Share your live location with
-                viewers and security personnels.
+                Quickly send packages to anyone within turkey at affordable
+                rates. Our riders would pickup and deliver the item.
               </p>
               <Link
                 to={"subscribe"}
@@ -61,11 +61,11 @@ export default function KeyFeatures() {
           </div>
           <div className="tablet:w-4/12 w-full tablet:px-8">
             <div className={styles.feature}>
-              <ForumIcon />
-              <h5>Join Forums</h5>
+              <NoteIcon />
+              <h5>Request Anything</h5>
               <p>
-                Join a forum of like minded individuals. Interact and share
-                mutually exclusive ideas.
+                Request for literally anything and AmatNow would do the
+                searching for you.
               </p>
               <Link
                 to={"subscribe"}

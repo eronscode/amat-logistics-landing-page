@@ -27,9 +27,9 @@ export const Seo: React.FunctionComponent<Props> = ({
   const { asPath } = useRouter();
   const defaultValues = {
     lang: "en-US",
-    siteName: "PYO2023 ",
-    author: "PYO2023",
-    description: "Lend Your Voice, Rebuild Your Country.",
+    siteName: "AmatFood",
+    author: "AmatFood",
+    description: "Order in 3-clicks. Delivered At Your Doorstep.",
   };
   const {
     description,
