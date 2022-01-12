@@ -6,7 +6,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en-US">
         <Head>
-          <link rel="shortcut icon" href="/images/pyo-logo.png" />
+          <link rel="shortcut icon" href="/images/amat-logo.jpg" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
             rel="preconnect"

@@ -5,9 +5,7 @@ import { API_URL } from "lib/constants";
 import { ApiEndpoints } from "lib/utils/apiEndpoints";
 
 type GetSubscribersCount = {
-  data: {
-    early_access_count: number;
-  };
+  early_access_count: number;
 };
 
 type PostSubscriber = {
@@ -17,6 +15,7 @@ type PostSubscriber = {
 export default function useSubscribeService() {
   const [usersCount, setUsersCount] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
+  const [isUserLoading, setIsUserLoading] = useState(false);
 
   async function suscribeUser(payload: any) {
     setIsLoading(true);
@@ -46,6 +45,7 @@ export default function useSubscribeService() {
   }
 
   async function getSubscribersCount() {
+    setIsUserLoading(true);
     setUsersCount(0);
     try {
       const repsonse = await axios.get<GetSubscribersCount>(
@@ -57,16 +57,19 @@ export default function useSubscribeService() {
           },
         },
       );
+      setIsUserLoading(false);
       if (repsonse.status !== 200) return;
       if (!repsonse.data) return;
-      setUsersCount(repsonse?.data?.data?.early_access_count);
+      setUsersCount(repsonse?.data?.early_access_count);
     } catch (error) {
       toast.error("Sometheing went wrong. Unable to fetch subscription count");
     }
+    setIsUserLoading(false);
   }
 
   return {
     isLoading,
+    isUserLoading,
     usersCount,
     suscribeUser,
     getSubscribersCount,

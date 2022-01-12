@@ -13,6 +13,7 @@ function HomeHero() {
     handleSubmit,
     usersCount,
     getSubscribersCount,
+    isUserLoading,
   } = useFormSubscription();
 
   useEffect(() => {
@@ -75,9 +76,9 @@ function HomeHero() {
                   </div>
                 </div>
                 <div className={styles.subscriptionCount}>
-                  {!usersCount ? (
+                  {isUserLoading ? (
                     <p>loading...</p>
-                  ) : (
+                  ) : usersCount && !isUserLoading ? (
                     <p className="flex">
                       <span className="mr-4">
                         <WarningIcon />
@@ -85,7 +86,7 @@ function HomeHero() {
                       <span className="font-bold">{50 - usersCount}</span>
                       /50 slots left
                     </p>
-                  )}
+                  ) : null}
                 </div>
               </div>
             </div>

@@ -7,8 +7,13 @@ const regex =
 
 export default function useFormSubscription() {
   const [value, setValue] = useState("");
-  const { isLoading, usersCount, suscribeUser, getSubscribersCount } =
-    useSubscribeService();
+  const {
+    isLoading,
+    usersCount,
+    suscribeUser,
+    isUserLoading,
+    getSubscribersCount,
+  } = useSubscribeService();
 
   function onValueChange(e: React.ChangeEvent<HTMLInputElement>) {
     setValue(e.target.value);
@@ -48,6 +53,7 @@ export default function useFormSubscription() {
     onValueChange,
     usersCount,
     isLoading,
+    isUserLoading,
     getSubscribersCount,
   };
 }
