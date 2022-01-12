@@ -22,7 +22,7 @@ export const Seo: React.FunctionComponent<Props> = ({
   type,
   lang,
   data,
-  image = "/images/pyo-logo.jpg",
+  image = "/images/amat-logo.jpg",
 }) => {
   const { asPath } = useRouter();
   const defaultValues = {
